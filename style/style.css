@@ -1,0 +1,2800 @@
+html{
+    height: 100%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(187, 182, 182, 0.507);
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+    color: #ffffff;
+  }
+.forumstyle{
+    
+    box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    height: fit-content;
+}
+
+.post_header{
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    height: 110px;
+}
+
+.user_profile{
+    float: left;
+}
+.user_profile img{
+    width: 75px;
+    height: 75px;
+}
+.username_forum{
+    font-size: 20px;
+    color: #0d11eb;
+
+}
+
+.time_forum{
+    font-size: 14px;
+    color: #646464;
+}
+
+.post_detail{
+    float: left;
+    margin-left: 20px;
+}
+
+.caption button{
+    float: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.post_type{
+    float: right;
+    font-size: 20px;
+}
+.content{
+    padding: 20px;
+    font-size: 20px;
+}
+.restrict{
+    text-align: center;
+    color: #919191;
+}
+.post_image{
+    padding: 30px;
+}
+.commentstyle{
+    padding: 30px;
+    
+}
+.viewComment{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.comment_profile{
+    float: left;
+}
+.comment_profile img{
+    width: 50px;
+    height: 50px;
+}
+.comment_detail{
+    float: left;
+    margin-left: 20px;
+}
+.username_comment{
+    font-size: 15px;
+    color: #0d11eb;
+}
+
+.time_comment{
+    font-size: 12px;
+    color: #646464;
+}
+
+.comment_content{
+    float: left;
+    width: 80%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+}
+.breakLine{
+    display: block;
+}
+.scroll{
+    height: 100px;
+    overflow-y: auto;
+}
+
+.wrapword {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -webkit-pre-wrap;          /* Chrome & Safari */ 
+    white-space: -pre-wrap;                 /* Opera 4-6 */
+    white-space: -o-pre-wrap;               /* Opera 7 */
+    white-space: pre-wrap;                  /* CSS3 */
+    word-wrap: break-word;                  /* Internet Explorer 5.5+ */
+    word-break: break-all;
+    white-space: normal;
+}
+.dropdown{
+    float: right;
+}
+
+.commentBtn{
+    float: right;
+}
+.edit_area a button{
+    font-size: 20px;
+}
+.edit_area{
+    margin: 50px;
+}
+.view_area a button{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* side bar */
+
+.side-bar{
+    margin-right: 55px;
+    margin-top: 8.5px;
+    margin-bottom: 5px;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+    background-color: #fff;
+    padding: 0;
+}
+.container1{
+    margin-left:40px;
+    margin-right: none;
+}
+.collapseArea .card{
+    border-radius: 0;
+    background-color: #fff;
+    color: #026670;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-style: solid; 
+    border-color: #fff;
+}
+.collapseArea .card-header .btn{
+    color: #026670;
+    border-radius: 0;
+    font-size: 20px;
+    padding: 3px 8px;
+    background: #ffffff;
+}
+.collapseArea .card-header .btn:hover{
+    color: #fce181;
+    background-color: #026670;
+    font-size: 23px;
+}
+.collapseArea .card-header{
+    color: #026670;
+    padding: 0;
+    font-size: 20px;
+}
+.function {
+    box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    height: fit-content;
+    text-align: center;
+}
+.function button{
+    width: 49.7%;
+    margin: 0;
+    padding: 10px;
+    color: #026670;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+}
+.function a button i{
+    font-size: 37px;
+}
+.function a button:hover{
+    color: #fce181;
+    background: #026670;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+/*
+.function ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.function li{
+    margin-left: 0;
+    padding: 3px 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    display: inline;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #026670;
+}
+
+.function a{
+    color: #026670;
+    font-size: 20px;
+    text-decoration: none;
+}
+.function a:hover{
+    color: #fce181;
+    font-size: 23px;
+    
+}
+.function li:hover{
+    background-color: #026670;
+    
+}
+*/
+/*-------*/
+/*--edit--*/
+.exam{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.Subjectpt3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.Subjectspm{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/*---*/
+h1{
+    color: #EDEAE5;
+}
+
+a{
+    color: #EDEAE5;
+}
+.username{
+    color: #EDEAE5;
+}
+footer{
+    padding: 10px;
+    background-color: #026670;
+    text-align: center;
+    color: #fce181;
+    margin-top: auto;
+}
+
+.news_slider, .carousel img{
+    margin: 0px, 0px, 20px, 0px;
+    padding: 0;
+    width: 100%;
+    height: 350px;
+}
+
+body{
+    background: #edeae5;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_box{
+    resize: none;
+    width: 100%;
+    height: 50px;
+}
+.caption_box{
+    resize: none;
+    width: 100%;
+    height: 200px;
+}
+.editBtn{
+    float: right;
+}
+
+.editExam .submitBtn{
+    float: right;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.endPost{
+    text-align: center;
+    color: #919191;
+}
+.read-more{
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.inputArea{
+    border: 1px solid #000;
+    align-items: center;
+    margin: 50px;
+    padding: 25px;
+
+}
+.insertBtn{
+    float: right;
+}
+.inputFile{
+    float: left;
+}
+.statusSelect{
+    float: left;
+    margin-left: 10px;
+}
+.frame{
+    float: left;
+    margin: 10px;
+}
+.remark{
+    float: left;
+    margin: 10px;
+}
+.wrapper{
+    padding: 25px;
+}
+/*--header--*/
+.Drawificient a img{
+    width: 250px;
+    height: 50px;
+}
+.navbar{
+    background-color: #026670;
+    color: #ffffff;
+    font-size: 20px;
+}
+header nav .navbar-collapse .nav-item .nav-link{
+    color: #ffffff;
+}
+header nav .navbar-collapse .nav-item .nav-link:hover{
+    color: #fce181;
+}
+header nav .navbar-collapse .nav-item .nav-link:visited{
+    color: #ffffff;
+}
+header nav .navbar-collapse .nav-item .nav-link:active{
+    color: #ffffff;
+}
+.navbar-nav .nav-item .dropdown-toggle{
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item :hover{
+    color: #fce181;
+    text-decoration: none;
+}
+.dropdown-menu{
+    background-color: #EDEAE5;
+}
+.dropdown-menu :hover{
+    color: #fce181;
+    background-color: #026670;
+}
+.table{
+    font-size: 20px;
+}
+.caption .saveEdit{
+    font-size: 20px;
+
+}
+.filtering{
+    font-size: 20px;
+}
+.filtering button{
+    font-size: 20px;
+}
+.news_status {
+    border-bottom: solid black;
+    background: #ffffff;
+	padding: 20px;
+}
+
+.StorageInsertContent_News {
+    border: black solid;
+}
+
+.ManualInsertContent_News {
+    border: black solid;
+}
+.remarkSection {
+	padding: 20px;
+	font-size: 25px;
+	background: #ffffff;
+	border-bottom: solid black;
+}
+
+textarea[name=remark] {
+	resize: none;
+	height: 90px;
+	width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#StorageInsert_news {
+	margin: 50px;
+    font-size: 25px;
+}
+.ImageStorage_news {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.ImageStorage_news .hidden-checkboxes ul {
+	list-style-type: none;
+}
+
+.ImageStorage_news .hidden-checkboxes li {
+	display: inline-block;
+}
+
+.ImageStorage_news .hidden-checkboxes input[type=checkbox] {
+	transform: scale(5, 5);
+	position: relative;
+	left: 86.4px;
+	top: 84px;
+	display: inline-block;
+	z-index: 1;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.ImageStorage_news .hidden-checkboxes label {
+	border: 1px solid #fff;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ImageStorage_news .hidden-checkboxes label::before {
+	background-color: white;
+	color: white;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 28px;
+	transition-duration: 0.4s;
+	transform: scale(0);
+}
+
+.ImageStorage_news .hidden-checkboxes label img {
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+}
+
+.ImageStorage_news .hidden-checkboxes input[type=checkbox]:checked+label {
+	border-color: #ddd;
+}
+
+.ImageStorage_news .hidden-checkboxes input[type=checkbox]:checked+label::before {
+	content: "✓";
+	background-color: grey;
+	transform: scale(1);
+}
+
+.ImageStorage_news .hidden-checkboxes input[type=checkbox]:checked+label img {
+	transform: scale(0.9);
+	box-shadow: 0 0 5px #333;
+	z-index: -1;
+}
+
+#ManualInsert_news {
+	margin: 50px;
+	font-size: 25px;
+}
+.ImportFile_news {
+	font-size: 25px;
+    padding: 15px;
+    background: #ffffff;
+}
+.post_image .carousel-item img{
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+}
+.feedback{
+    text-align: center;
+    align-content: center;
+}
+.feedback textarea{
+    width: 100%;
+    height: 150px;
+    resize: none; 
+}
+.display_feedback{
+    width: 50%;
+    height: max-content;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #ffffff;
+}
+.display_header{
+    padding: 20px;
+}
+.feedback_card{
+    width: 100%;
+    height: max-content;
+    min-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #AED6F1;
+}
+.display_content{
+    margin: 20px;
+    height: 50vh;
+    overflow: auto;
+}
+.feedback_user{
+    margin-bottom: 10px;
+}
+.feedback_area{
+    padding: 30px;
+    padding-top: 10px;
+}
+.feedback-checkbox input{
+    width: 20px;
+    height: 20px;
+}
+@media(max-width:576px){
+    .feedback_area{
+        padding: 5px;
+        padding-top: 10px;
+    }
+    .display_feedback{
+        width: 90%;
+        
+    }
+    .display_content{
+        margin: 10px;
+    }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        z-index: 99;
+        font-size: 10px;
+        border: none;
+        outline: none;
+        background-color: rgba(187, 182, 182, 0.507);
+        color: black;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 4px;
+      }
+    .news_status {
+        border-bottom: solid black;
+        padding: 5px;
+    }
+    .remarkSection {
+        padding: 5px;
+        font-size: 15px;
+        background: #ffffff;
+        border-bottom: solid black;
+    }
+    
+    textarea[name=remark] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #StorageInsert_news {
+        margin: 5px;
+        font-size: 15px;
+    }
+    .ImageStorage_news {
+        padding: 5px;
+    }
+    #ManualInsert_news {
+        margin: 5px;
+        font-size: 15px;
+    }
+    .ImportFile_news {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .filtering{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .filtering button{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .exam{
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .Subjectpt3{
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .Subjectspm{
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .edit_area a button{
+        font-size: 15px;
+    }
+    .edit_area{
+        margin: 0;
+    }
+    .caption .saveEdit{
+        font-size: 12px;
+        
+    }
+    .editExam .submitBtn{
+        float: right;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .view_area a button{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .table{
+        font-size: 15px;
+    }
+    /*latest*/
+    .scroll{
+        height: 75px;
+        overflow-y: auto;
+        margin-bottom: 0;
+    }
+    .user_profile img{
+        width: 35px;
+        height: 35px;
+    }
+    .username_forum{
+        font-size: 15px;
+    
+    }
+    .time_forum{
+        font-size: 10px;
+    }
+    .post_detail{
+        float: left;
+        margin-left: 10px;
+    }
+    .post_type{
+        float: right;
+        font-size: 10px;
+    }
+    .post_image{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .post_image .carousel-item img{
+        margin: 0px 0px 20px 0px;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .viewComment{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .content{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .comment_profile img{
+        width: 25px;
+        height: 25px;
+    }
+    .comment_detail{
+        float: left;
+        margin-left: 5px;
+    }
+    .username_comment{
+        font-size: 10px;
+        color: #0d11eb;
+    }
+    
+    .time_comment{
+        font-size: 8px;
+        color: #646464;
+    }
+    
+    .comment_content{
+        float: none;
+        width: 80%;
+        margin-left: 5px;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+    .breakLine{
+        display: none;
+    }
+    .wrapword {
+        white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+        white-space: -webkit-pre-wrap;          /* Chrome & Safari */ 
+        white-space: -pre-wrap;                 /* Opera 4-6 */
+        white-space: -o-pre-wrap;               /* Opera 7 */
+        white-space: pre-wrap;                  /* CSS3 */
+        word-wrap: break-word;                  /* Internet Explorer 5.5+ */
+        word-break: break-all;
+        white-space: normal;
+    }
+    .commentstyle{
+        padding: 10px;
+    }
+    .dropdown .drop-btn{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .commentBtn{
+        float: right;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+    }
+    
+    /*
+    .side-bar{
+        float: none;
+    }*/
+    .function {
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        height: fit-content;
+        text-align: center;
+    }
+    .function button{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        color: #026670;
+        font-size: 15px;
+        border: none;
+        background: #fff;
+    }
+    .function a button i{
+        font-size: 27px;
+    }
+    .function a button:hover{
+        color: #fce181;
+        background: #026670;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    /*
+    .function li{
+        margin-left: 0;
+        margin-bottom: 5px;
+        background-color: #fff;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #026670;
+    }
+    */
+    .news_slider, .carousel img{
+        margin: 0px, 0px, 20px, 0px;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+    }
+    /*
+    .function a{
+        color: #026670;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .function a:hover{
+        color: #fce181;
+        font-size: 18px;
+        
+    }
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 15px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #026670;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 15px;
+    }
+    .collapseArea .card-header :hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 18px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 15px;
+    }*/
+    .side-bar{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        float: none;
+        position: relative;
+        top: 0;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background-color: #fff;
+        padding: 0;
+    }
+    .container1{
+        margin-left: 0;
+        margin-right: none;
+        padding: 0;
+    }
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 15px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-style: solid; 
+        border-color: #fff;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 15px;
+        padding: 3px 8px;
+        background: #ffffff;
+    }
+    .collapseArea .card-header .btn:hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 18px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 15px;
+    }
+    .comment_box{
+        resize: none;
+        width: 80%;
+        height: 35px;
+    }
+}
+@media(max-width:768px) and (min-width:576px){
+    .feedback_area{
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .display_feedback{
+        width: 75%;
+    }
+    .display_content{
+        margin: 10px;
+    }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 99;
+        font-size: 13px;
+        border: none;
+        outline: none;
+        background-color: rgba(187, 182, 182, 0.507);
+        color: black;
+        cursor: pointer;
+        padding: 7px;
+        border-radius: 4px;
+      }
+    .filtering{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .filtering button{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .caption .saveEdit{
+        font-size: 15px;
+    }
+    .edit_area{
+        margin: 10px;
+    }
+    .table{
+        font-size: 17px;
+    }
+    .editExam .submitBtn{
+        float: right;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .view_area a button{
+        font-size: 17px;
+        margin: 5px;
+    }
+    /*latest*/
+    .scroll{
+        height: 75px;
+        overflow-y: auto;
+        margin-bottom: 0;
+    }
+    .user_profile img{
+        width: 35px;
+        height: 35px;
+    }
+    .username_forum{
+        font-size: 15px;
+    
+    }
+    .time_forum{
+        font-size: 10px;
+    }
+    .post_detail{
+        float: left;
+        margin-left: 10px;
+    }
+    .post_type{
+        float: right;
+        font-size: 10px;
+    }
+    .post_image{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .post_image .carousel-item img{
+        margin: 0px 0px 20px 0px;
+        padding: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .viewComment{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .content{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .comment_profile img{
+        width: 25px;
+        height: 25px;
+    }
+    .comment_detail{
+        float: left;
+        margin-left: 5px;
+    }
+    .username_comment{
+        font-size: 10px;
+        color: #0d11eb;
+    }
+    
+    .time_comment{
+        font-size: 8px;
+        color: #646464;
+    }
+    
+    .comment_content{
+        float: none;
+        width: 80%;
+        margin-left: 5px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .breakLine{
+        display: none;
+    }
+    .wrapword {
+        white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+        white-space: -webkit-pre-wrap;          /* Chrome & Safari */ 
+        white-space: -pre-wrap;                 /* Opera 4-6 */
+        white-space: -o-pre-wrap;               /* Opera 7 */
+        white-space: pre-wrap;                  /* CSS3 */
+        word-wrap: break-word;                  /* Internet Explorer 5.5+ */
+        word-break: break-all;
+        white-space: normal;
+    }
+    .commentstyle{
+        padding: 10px;
+    }
+    .dropdown .drop-btn{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .commentBtn{
+        float: right;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+    }
+    
+    /*--
+    .side-bar{
+        float: none;
+    }
+    */
+    .news_slider, .carousel img{
+        margin: 0px, 0px, 20px, 0px;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+    }
+    /*
+    .function a{
+        color: #026670;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .function a:hover{
+        color: #fce181;
+        font-size: 20px;
+        
+    }
+    */
+    .function {
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        height: fit-content;
+        text-align: center;
+    }
+    .function button{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        color: #026670;
+        font-size: 17px;
+        border: none;
+        background: #fff;
+    }
+    .function a button i{
+        font-size: 30px;
+    }
+    .function a button:hover{
+        color: #fce181;
+        background: #026670;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .side-bar{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        float: none;
+        position: relative;
+        top: 0;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background-color: #fff;
+        padding: 0;
+    }
+    .container1{
+        margin-left: 0;
+        margin-right: none;
+        padding: 0;
+    }
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-style: solid; 
+        border-color: #fff;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 17px;
+        padding: 3px 8px;
+        background: #ffffff;
+    }
+    .collapseArea .card-header .btn:hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 20px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 17px;
+    }
+    /*
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #026670;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 17px;
+    }
+    .collapseArea .card-header :hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 20px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 17px;
+    }*/
+    .comment_box{
+        resize: none;
+        width: 90%;
+        height: 40px;
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    .feedback_area{
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .display_feedback{
+        width: 65%;
+    }
+    .display_content{
+        margin: 15px;
+    }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 25px;
+        z-index: 99;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: rgba(187, 182, 182, 0.507);
+        color: black;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 4px;
+      }
+    /*
+    .side-bar{
+        float: none;
+    }*/
+    .filtering{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .filtering button{
+        font-size: 17px;
+        padding: 5px;
+    }
+    .caption .saveEdit{
+        font-size: 17px;
+    }
+    .edit_area{
+        margin: 30px;
+    }
+    .table{
+        font-size: 20px;
+    }
+    .view_area a button{
+        font-size: 19px;
+        margin: 5px;
+    }
+    /*latest*/
+    .scroll{
+        height: 75px;
+        overflow-y: auto;
+        margin-bottom: 0;
+    }
+    .user_profile img{
+        width: 35px;
+        height: 35px;
+    }
+    .username_forum{
+        font-size: 15px;
+    
+    }
+    .time_forum{
+        font-size: 10px;
+    }
+    .post_detail{
+        float: left;
+        margin-left: 10px;
+    }
+    .post_type{
+        float: right;
+        font-size: 10px;
+    }
+    .post_image{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .post_image .carousel-item img{
+        margin: 0px 0px 20px 0px;
+        padding: 0;
+        width: 100%;
+        height: 400px;
+    }
+    .viewComment{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .content{
+        padding: 20px;
+        font-size: 12px;
+    }
+    .comment_profile img{
+        width: 25px;
+        height: 25px;
+    }
+    .comment_detail{
+        float: left;
+        margin-left: 5px;
+    }
+    .username_comment{
+        font-size: 10px;
+        color: #0d11eb;
+    }
+    
+    .time_comment{
+        font-size: 8px;
+        color: #646464;
+    }
+    
+    .comment_content{
+        float: none;
+        width: 80%;
+        margin-left: 5px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .breakLine{
+        display: none;
+    }
+    .wrapword {
+        white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+        white-space: -webkit-pre-wrap;          /* Chrome & Safari */ 
+        white-space: -pre-wrap;                 /* Opera 4-6 */
+        white-space: -o-pre-wrap;               /* Opera 7 */
+        white-space: pre-wrap;                  /* CSS3 */
+        word-wrap: break-word;                  /* Internet Explorer 5.5+ */
+        word-break: break-all;
+        white-space: normal;
+    }
+    .commentstyle{
+        padding: 10px;
+    }
+    .dropdown .drop-btn{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .commentBtn{
+        float: right;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+    }
+
+    .news_slider, .carousel img{
+        margin: 0px, 0px, 20px, 0px;
+        padding: 0;
+        width: 100%;
+        height: 300px;
+    }
+    /*
+    .function a{
+        color: #026670;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .function a:hover{
+        color: #fce181;
+        font-size: 20px;
+        
+    }
+    
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #026670;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 17px;
+    }
+    .collapseArea .card-header :hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 20px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 20px;
+    }*/
+    .function {
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        height: fit-content;
+        text-align: center;
+    }
+    .function button{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        color: #026670;
+        font-size: 17px;
+        border: none;
+        background: #fff;
+    }
+    .function a button i{
+        font-size: 30px;
+    }
+    .function a button:hover{
+        color: #fce181;
+        background: #026670;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .side-bar{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        float: none;
+        position: relative;
+        top: 0;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background-color: #fff;
+        padding: 0;
+    }
+    .container1{
+        margin-left: 0;
+        margin-right: none;
+        padding: 0;
+    }
+    .collapseArea .card{
+        border-radius: 0;
+        background-color: #fff;
+        color: #026670;
+        font-size: 17px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-style: solid; 
+        border-color: #fff;
+    }
+    .collapseArea .card-header .btn{
+        color: #026670;
+        border-radius: 0;
+        font-size: 17px;
+        padding: 3px 8px;
+        background: #ffffff;
+    }
+    .collapseArea .card-header .btn:hover{
+        color: #fce181;
+        background-color: #026670;
+        font-size: 20px;
+    }
+    .collapseArea .card-header{
+        color: #026670;
+        padding: 0;
+        font-size: 17px;
+    }
+    .comment_box{
+        resize: none;
+        width: 90%;
+        height: 45px;
+    }
+}
+/*--------*/
+
+.panel-heading a button{
+    float: right;
+    font-size: 20px;
+}
+
+.DrawingCanvas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DrawingCanvas button {
+	font-size: 20px;
+}
+
+.UploadGallery {
+    margin-left:10px;
+}
+
+.fs-container {
+	width: 95%;
+	margin-top: 50px;
+    margin-left: 40px;
+	text-align: right;
+}
+
+.literally {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+/*kent*/
+.UserGallery {
+    font-size: 20px;
+    height:80%;
+}
+
+.BreakLineGallery{
+    display:none;
+}
+
+.UserGalleryContent1 {
+    float:left;
+    width: 72%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    height:100%;
+}
+
+.imgBox {
+    border: 2px solid rgb(49, 139, 102);
+    height: 90%;
+    margin-top: 6%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBox img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.UserGalleryContent2 {
+    float:right;
+    width: 28%;
+    height:100%;
+    box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+    background: #ffffff;
+
+}
+
+.RemoveImageForm {
+    padding: 4%;
+    height: 72%;
+}
+
+.RemoveHidden {
+    display:none;
+}
+
+.Enlarge img {
+    width: 250px; 
+    height: 150px; 
+    border:1px solid black;
+}
+
+.ImageDisplay {
+    margin-left: 20px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.ImportImageForm {
+    padding: 3%;
+    border-bottom: 2px solid rgb(49, 139, 102);
+}
+
+.ImageDisplay .hidden-checkboxes ul {
+	list-style-type: none;
+}
+
+.ImageDisplay .hidden-checkboxes li {
+	display: inline-block;
+}
+
+.ImageDisplay .hidden-checkboxes input[type=checkbox] {
+	transform: scale(7, 6);
+	position: relative;
+	left: 140px;
+	top: 110px;
+	display: inline-block;
+	z-index: 1;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.ImageDisplay .hidden-checkboxes label {
+	border: 1px solid #fff;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ImageDisplay .hidden-checkboxes label::before {
+	background-color: white;
+	color: white;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 28px;
+	transition-duration: 0.4s;
+	transform: scale(0);
+}
+
+.ImageDisplay .hidden-checkboxes label img {
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+}
+
+.ImageDisplay .hidden-checkboxes input[type=checkbox]:checked+label {
+	border-color: #ddd;
+}
+
+.ImageDisplay .hidden-checkboxes input[type=checkbox]:checked+label::before {
+	content: "✓";
+	background-color: grey;
+	transform: scale(1);
+}
+
+.ImageDisplay .hidden-checkboxes input[type=checkbox]:checked+label img {
+	transform: scale(0.9);
+	box-shadow: 0 0 5px #333;
+	z-index: -1;
+}
+
+.StorageInsertContent {
+	font-family: arial;
+}
+
+.StorageInsertForm {
+    margin: 50px;
+    margin-left:80px;
+	font-size: 25px;
+}
+
+.StorageInsertForm button {
+	font-size: 20px;
+}
+
+.CaptionSection {
+	padding: 20px;
+	font-size: 25px;
+}
+
+textarea[name=caption] {
+	resize: none;
+	height: 90px;
+	width: 95%;
+	margin-left: 40px;
+}
+
+.Exam_Subject_type {
+    float:right;
+}
+
+.Exam_Type {
+    float:left;
+}
+
+.Subject_Type {
+    float:left;
+    margin-left: 10px;
+}
+
+.Exam_Type #ExamLabel{
+    float:left;
+    margin-right:10px;
+}
+
+.Subject_Type #SubjectLabel {
+    float:left;
+}
+
+.Subject_Type #spmSubject {
+    float:left;
+    margin-left:10px;
+}
+
+.Subject_Type #spmSubject1 {
+    float:left;
+    margin-left:10px;
+}
+
+.Subject_Type #pt3Subject {
+    float:left;
+    margin-left:10px;
+}
+
+.Subject_Type #pt3Subject1 {
+    float:left;
+    margin-left: 10px;
+}
+
+.ImageStorageTitle {
+    margin-left: 20px;
+}
+
+.ImageStorage {
+    padding:15px;
+}
+
+.PopUp img {
+    width: 140px; 
+    height: 100px; 
+    border:1px solid black;
+}
+
+.ImageStorage .hidden-checkboxes ul {
+	list-style-type: none;
+}
+
+.ImageStorage .hidden-checkboxes li {
+	display: inline-block;
+}
+
+.ImageStorage .hidden-checkboxes input[type=checkbox] {
+	transform: scale(5, 5);
+	position: relative;
+	left: 86.4px;
+	top: 84px;
+	display: inline-block;
+	z-index: 1;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.ImageStorage .hidden-checkboxes label {
+	border: 1px solid #fff;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ImageStorage .hidden-checkboxes label::before {
+	background-color: white;
+	color: white;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 28px;
+	transition-duration: 0.4s;
+	transform: scale(0);
+}
+
+.ImageStorage .hidden-checkboxes label img {
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+}
+
+.ImageStorage .hidden-checkboxes input[type=checkbox]:checked+label {
+	border-color: #ddd;
+}
+
+.ImageStorage .hidden-checkboxes input[type=checkbox]:checked+label::before {
+	content: "✓";
+	background-color: grey;
+	transform: scale(1);
+}
+
+.ImageStorage .hidden-checkboxes input[type=checkbox]:checked+label img {
+	transform: scale(0.9);
+	box-shadow: 0 0 5px #333;
+	z-index: -1;
+}
+
+.ManualInsertForm {
+	margin: 50px;
+    margin-left:80px;
+	font-size: 25px;
+}
+
+.ManualInsertForm button {
+	font-size: 20px;
+}
+
+.ManualInsertContent {
+	font-family: arial;
+}
+
+.ImportFile {
+	padding: 15px;
+}
+
+@media (max-width: 1400px) and (min-width: 1201px) {
+
+    .UserGallery h2 {
+        font-size:25px;
+    }
+
+    .UserGalleryContent2 {
+        font-size:16px;
+    }
+    .UserGallery .btn {
+        font-size: 16px;
+    }
+
+    .ImageDisplay {
+        margin-left: 0px;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .Enlarge img {
+        width: 200px; 
+        height: 100px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(6, 5);
+        position: relative;
+        left: 115px;
+        top: 85px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .function button{
+        width: 49.6%;
+        margin: 0;
+        padding: 10px;
+        color: #026670;
+        font-size: 17px;
+        border: none;
+        background: #fff;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+    .function button{
+        width: 49.6%;
+        margin: 0;
+        padding: 10px;
+        color: #026670;
+        font-size: 17px;
+        border: none;
+        background: #fff;
+    }
+    .DrawingCanvas {
+        margin: 15px;
+    }
+    .fs-container {
+        width: 97%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .UserGallery {
+        font-size: 20px;
+        height:100%;
+    }
+
+    .UserGallery h2 {
+        font-size:25px;
+    }
+    .UserGallery .btn {
+        font-size:20px;
+    }
+
+    .UserGallery p {
+        font-size:20px;
+    }
+
+    .UserGalleryContent1 {
+        float:none;
+        width: 100%;
+        height: 65%;
+    }
+
+    .UserGalleryContent2 {
+        font-size: 20px;
+        float:none;
+        width: 100%;
+        height: 33%;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background: #ffffff;
+    
+    }
+    
+    .ImportImageForm {
+        padding: 1%;
+        border-bottom: 2px solid rgb(49, 139, 102);
+    }
+
+    .RemoveImageForm {
+        padding: 10px;
+        height: 78%;
+    }
+
+    .ImageDisplay {
+        margin-left: 10px;
+        overflow-y: auto;
+        height: 60%;
+    }
+    
+    .Enlarge img {
+        width: 200px; 
+        height: 100px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(6, 5);
+        position: relative;
+        left: 115px;
+        top: 85px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .StorageInsertForm {
+        margin: 30px;
+        margin-left:35px;
+        font-size: 20px;
+    }
+    
+    .StorageInsertForm button {
+        font-size: 20px;
+    }
+
+    textarea[name=caption] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .CaptionSection {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .Exam_Subject_type {
+        
+        padding: 10px;
+    }
+
+    .ManualInsertForm {
+        margin: 30px;
+        margin-left:40px;
+        font-size: 20px;
+    }
+    
+    .ManualInsertForm button {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .DrawingCanvas {
+        margin: 5px;
+        margin-left: 3px;
+    }
+    
+    .DrawingCanvas button {
+        font-size: 15px;
+    }
+    
+    .fs-container {
+        width: 95%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .UserGallery {
+        height:110%;
+    }
+
+    .UserGallery h2 {
+        font-size:25px;
+    }
+
+    .UserGallery p {
+        font-size:15px;
+    }
+
+    .UserGallery .btn {
+        font-size:15px;
+    }
+
+    .UserGalleryContent1 {
+        float:none;
+        width: 100%;
+        height: 65%;
+    }
+
+    .UserGalleryContent2 {
+        font-size: 15px;
+        float:none;
+        width: 100%;
+        height: 33%;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background: #ffffff;
+    
+    }
+
+    .ImportImageForm {
+        padding: 1%;
+        border-bottom: 2px solid rgb(49, 139, 102);
+    }
+
+    .RemoveImageForm {
+        padding: 10px;
+        height: 80%;
+    }
+    
+    .ImageDisplay {
+        margin-left: 50px;
+        overflow-y: auto;
+        height: 60%;
+    }
+    
+    .Enlarge img {
+        width: 200px; 
+        height: 100px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(6, 5);
+        position: relative;
+        left: 115px;
+        top: 85px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .StorageInsertForm {
+        margin: 30px;
+        margin-left:35px;
+        font-size: 20px;
+    }
+    
+    .StorageInsertForm button {
+        font-size: 20px;
+    }
+
+    textarea[name=caption] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .CaptionSection {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .Exam_Subject_type {
+        
+        padding: 10px;
+    }
+
+    .ManualInsertForm {
+        margin: 30px;
+        margin-left:40px;
+        font-size: 20px;
+    }
+    
+    .ManualInsertForm button {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 767px ) and (min-width: 576px) {
+    .DrawingCanvas {
+        margin: 5px;
+        margin-left: 3px;
+    }
+    
+    .DrawingCanvas button {
+        font-size: 15px;
+    }
+    
+    .fs-container {
+        width: 95%;
+        margin: 0px;
+    }
+
+    .UserGallery {
+        height:100%;
+    }
+    
+    .UserGallery h2 {
+        font-size:23px;
+    }
+
+    .UserGallery p {
+        font-size:12px;
+    }
+    
+    .UserGallery .btn {
+        font-size:12px;
+    }
+
+    .UserGalleryContent1 {
+        float:none;
+        width: 100%;
+        height: 65%;
+    }
+
+    .imgBox {
+        margin-top: 7%;
+    }
+
+    .UserGalleryContent1 {
+        padding-top: 2%;
+        padding-bottom:1%;
+    }
+
+    .UserGalleryContent2 {
+        font-size: 12px;
+        float:none;
+        width: 100%;
+        height: 33%;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background: #ffffff;
+    
+    }
+
+    .ImportImageForm {
+        padding: 1%;
+        border-bottom: 2px solid rgb(49, 139, 102);
+    }
+
+    .RemoveImageForm {
+        padding: 10px;
+        height: 80%;
+    }
+    
+    .ImageDisplay {
+        margin-left: 50px;
+        overflow-y: auto;
+        height: 60%;
+    }
+
+    .ImageStorageTitle {
+        margin-left: 10px;
+    }
+    
+    .Enlarge img {
+        width: 200px; 
+        height: 100px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(6, 5);
+        position: relative;
+        left: 115px;
+        top: 85px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .StorageInsertForm {
+        margin: 30px;
+        margin-left:35px;
+        font-size: 15px;
+    }
+    
+    .StorageInsertForm button {
+        font-size: 15px;
+    }
+
+    textarea[name=caption] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .CaptionSection {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .Exam_Subject_type {
+        padding: 10px;
+    }
+
+    .ManualInsertForm {
+        margin: 30px;
+        margin-left:35px;
+        font-size: 15px;
+    }
+    
+    .ManualInsertForm button {
+        font-size: 15px;
+    }
+
+    .ImportFile {
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 576px) and (min-width: 361px){
+    .DrawingCanvas {
+        margin: 10px;
+        margin-left: 3px;
+    }
+    
+    .DrawingCanvas button {
+        font-size: 15px;
+    }
+
+    .UploadGallery {
+        margin-left:10px;
+    }
+    
+    .fs-container {
+        width: 95%;
+        margin: 0px;
+    }
+
+    .UserGallery {
+        height:100%;
+    }
+
+    .UserGallery h2 {
+        font-size:20px;
+    }
+
+    .UserGallery p {
+        font-size:12px;
+    }
+    
+    .UserGallery .btn {
+        font-size:12px;
+    }
+
+    .UserGalleryContent1 {
+        float:none;
+        width: 100%;
+        height: 65%;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+    .imgBox {
+        margin-top: 11%;
+    }
+
+    .UserGalleryContent2 {
+        font-size: 12px;
+        float:none;
+        width: 100%;
+        height: 33%;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background: #ffffff;
+    
+    }
+
+    .ImportImageForm {
+        padding: 1%;
+        border-bottom: 2px solid rgb(49, 139, 102);
+    }
+
+    .RemoveImageForm {
+        padding: 5px;
+        height: 80%;
+    }
+    
+    .ImageDisplay {
+        margin-left: 15px;
+        overflow-y: auto;
+        height: 60%;
+    }
+
+    .ImageStorageTitle {
+        margin-left: 10px;
+    }
+    
+    .Enlarge img {
+        width: 150px; 
+        height: 80px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(4, 3);
+        position: relative;
+        left: 90px;
+        top: 70px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .StorageInsertForm {
+        margin: 5px;
+        margin-left:0px;
+        font-size: 15px;
+    }
+    
+    .StorageInsertForm button {
+        font-size: 15px;
+    }
+
+    textarea[name=caption] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .CaptionSection {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .Exam_Subject_type {
+        padding: 10px;
+    }
+
+    .BreakLineExamSubject{
+        display:block;
+    }
+
+    .ManualInsertForm {
+        margin: 5px;
+        margin-left:0px;
+        font-size: 15px;
+    }
+    
+    .ManualInsertForm button {
+        font-size: 15px;
+    }
+
+    .ImportFile {
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .DrawingCanvas {
+        margin: 10px;
+        margin-left: 3px;
+    }
+    
+    .DrawingCanvas button {
+        font-size: 16px;
+    }
+
+    .UploadGallery {
+        margin-left:0px;
+        margin-top: 20px;
+    }
+    
+    .fs-container {
+        width: 95%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .UserGallery {
+        height:100%;
+    }
+
+    .UserGallery h2 {
+        font-size:15px;
+    }
+
+    .UserGallery p {
+        font-size: 9px;
+    }
+    
+    .UserGallery .btn {
+        font-size: 9px;
+    }
+
+    .BreakLineGallery {
+        display:block;
+    }
+
+    .UserGalleryContent1 {
+        float:none;
+        width: 100%;
+        height: 65%;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 15%;
+    }
+
+    .imgBox {
+        margin-top: 13%;
+    }
+
+    .UserGalleryContent2 {
+        font-size: 9px;
+        float:none;
+        width: 100%;
+        height: 33%;
+        box-shadow: 2px 2px 2px #026670, 0 0 2px #026670, 0 0 2px #026670;
+        background: #ffffff;
+    
+    }
+
+    .RemoveImageForm {
+        padding: 5px;
+        height: 80%;
+    }
+    
+    .ImageDisplay {
+        margin-left: -15px;
+        overflow-y: auto;
+        height: 50%;
+    }
+
+    .ImageStorageTitle {
+        margin-left: 10px;
+    }
+    
+    .Enlarge img {
+        width: 150px; 
+        height: 50px; 
+        border:1px solid black;
+    }
+
+    .ImageDisplay .hidden-checkboxes input[type=checkbox] {
+        transform: scale(4, 2);
+        position: relative;
+        left: 90px;
+        top: 57px;
+        display: inline-block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .StorageInsertForm {
+        margin: 10px;
+        margin-left:0px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    .StorageInsertForm button {
+        font-size: 15px;
+    }
+
+    textarea[name=caption] {
+        resize: none;
+        height: 90px;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .CaptionSection {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .Exam_Subject_type {
+        padding: 10px;
+    }
+
+    .BreakLineExamSubject{
+        display:block;
+    }
+    
+    .ManualInsertForm {
+        margin: 20px;
+        margin-left:0px;
+        font-size: 15px;
+    }
+    
+    .ManualInsertForm button {
+        font-size: 15px;
+    }
+
+    .ImportFile {
+        padding: 10px;
+    }
+
+}
+
+/* TBS
+:root
+{
+    --input-padding-x: .75rem;
+    --input-padding-y: .65rem;
+}
+  */
+  .form-register-login 
+  {
+      width: 100%;
+      max-width: 420px;
+      padding: 15px;
+      margin: 0 auto;
+      background-color:#AED6F1;
+  }
+  
+  .form-forgotpass 
+  {
+      width: 100%;
+      max-width: 420px;
+      padding: 15px;
+      margin: 0 auto;
+      background-color:#AED6F1;
+  }
+  .form-floating
+  {
+      padding-bottom:20px;
+  }
+  /* 
+  .form-label-group
+  {
+      position: relative;
+      margin-bottom: 1rem;
+      
+  }
+    
+  .form-label-group > input,
+  .form-label-group > select,
+  .form-label-group > label
+  {
+      padding: var(--input-padding-y) var(--input-padding-x);
+      height: 45px;
+  }
+    
+  .form-label-group > label
+  {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      margin-bottom: 0; 
+      line-height: 1.5;
+      color: #495057;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .1s ease-in-out;
+  }
+    
+  .form-label-group input::-webkit-input-placeholder
+  {
+      color: transparent;
+  }
+    
+  .form-label-group input:-ms-input-placeholder 
+  {
+      color: transparent;
+  }
+    
+  .form-label-group input::-ms-input-placeholder 
+  {
+      color: transparent;
+  }
+    
+  .form-label-group input::-moz-placeholder 
+  {
+      color: transparent;
+  }
+    
+  .form-label-group input::placeholder 
+  {
+      color: transparent;
+  }
+    
+  .form-label-group input:not(:placeholder-shown) 
+  {
+      padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+      padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+    
+  .form-label-group input:not(:placeholder-shown) ~ label 
+  {
+      padding-top: calc(var(--input-padding-y) / 3);
+      padding-bottom: calc(var(--input-padding-y) / 3);
+      font-size: 12px;
+      color: #777;
+  }
+    
+  .form-label-group select:not([value=""]):valid~label
+  {
+      padding-top: calc(var(--input-padding-y) / 3);
+      padding-bottom: calc(var(--input-padding-y) / 3);
+      font-size: 12px;
+      color: #777;
+  }/*/
+  
+    
+  #profile_picture
+  {
+      margin-bottom:30px;
+      width:100px;
+      height:100px;
+      display:inline-block;
+      vertical-align:top;
+  }
+  
+  #profile_username
+  {
+      font-size:30px;
+      padding-top:30px;
+      font-family:Arial, Helvetica, sans-serif;
+      display:inline-block;
+      margin-left:15px;
+  }
+  
+  #profile_title
+  {
+    padding-left:60px;
+    padding-top:10px;
+    
+  }
+  
+  #profile_back
+  {
+    padding-left:60px;
+    padding-bottom:10px;
+    padding-top:10px;
+  }
+  
+  #profile_form_area
+  {
+      background:#ffffff;
+      padding-bottom:50px;
+      padding-top:30px;
+  }
+  #DeleteProfileForm
+  {
+      padding-top:10px;
+  }
+  
+  #frame
+  {
+      padding-top:10px;
+      padding-bottom:10px;
+  }
+  
+  .btn
+  {
+      font-size:20px;
+  }
+  
+  .profile_forum
+   {
+    height: 500px;
+    overflow: auto;
+    overflow-y: auto; 
+  }
+  
+  .profile_form_title
+  {
+      padding-top:20px;
+  }
+  
+  .profile_area_title
+  {
+      padding-top:20px;
+  }
+  
+  #profile_area
+  {
+      background:#ffffff;
+  }
+  
+  .drawificolor, .drawificolor:active, .drawificolor:focus
+  {
+      color:#026670;
+      background: #ffffff;
+      border-color:#025570;
+      margin-bottom:10px;
+  }
+  
+  .drawificolor:hover
+  {
+      color: #fce181;
+      background: #026670;
+      font-size: 24px;
+      text-decoration: none;
+      border-color:#025570;
+  }
+  
+  .modal-drawificolor
+  {
+      color: #fce181;
+      background: #026670;
+  }
+
+@media (max-width: 978px) 
+{
+    
+    .Drawificient a img{
+        width: 150px;
+        height: 40px;
+    }
+    #profile_title
+    {
+        padding-left:20px;
+        padding-top:10px;
+  
+    }
+
+    #profile_back
+    {
+        padding-left:20px;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+
+    .btn
+    {
+        font-size:15px;
+    }
+    #profile_picture
+    {
+        margin-bottom:30px;
+        width:75px;
+        height:75px;
+    }
+
+    #profile_username
+    {
+        font-size:20px;
+        padding-top:20px;
+        margin-left:15px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .profile_form_title
+    {
+        padding-top:10px;
+        font-size:20px;
+    }
+
+    .profile_area_title
+    {
+        padding-top:10px;
+        font-size:20px;
+    }
+    .form-label-group > label
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 0; 
+        line-height: 1.5;
+        color: #495057;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: all .1s ease-in-out;
+        font-size:15px;
+    }
+}
+
